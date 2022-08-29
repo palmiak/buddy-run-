@@ -50,7 +50,7 @@ export async function getStaticProps() {
   });
   // Once we get the response back, we need to traverse it to pull out the
   // data we want to pass into the HomePage
-  const posts = response.data.posts.nodes;
+  const posts = response?.data?.posts?.nodes;
 
   return {
     props: {
