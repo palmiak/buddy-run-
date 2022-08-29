@@ -4,4 +4,4 @@ package = "@netlify/plugin-nextjs"
 [build]
 command = "npm run build"
 publish = ".next"
-environment = { NODE_VERSION = "16" }
+environment = { NODE_VERSION = "17" }
