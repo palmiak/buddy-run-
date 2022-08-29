@@ -51,7 +51,7 @@ export async function getStaticProps({ params }) {
       id: params.slug,
     },
   });
-  const post = response..data.post;
+  const post = response.data.post;
   return {
     props: {
       post,
